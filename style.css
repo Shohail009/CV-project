@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'roboto', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    background-color: #e4f9f5;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*===Header===*/
+.side1 {
+    width: 50%;
+}
+
+.image {
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+
+.bio {
+    float: left;
+    padding: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgb(109, 74, 68);
+}
+
+.contact {
+    width: 40%;
+    float: right;
+    padding: 36px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: rgb(109, 74, 68);
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    color: rgb(153, 36, 15);
+}
+
+.div-clear {
+    clear: both;
+}
+
+hr {
+    border: 2px solid rgb(163, 163, 163);
+    width: 100%;
+    margin: 20px auto;
+}
+
+/*==============
+  personal info
+  =============*/
+
+.leftdiv {
+    width: 40%;
+    float: left;
+
+}
+
+.rightdiv {
+    width: 60%;
+    float: right;
+
+}
+
+/*==============
+  education 
+  =============*/
+
+.div1 {
+    width: 45%;
+    float: left;
+}
+
+.div2 {
+    width: 45%;
+    float: left;
+}
+
+/*==============
+footer
+  =============*/
+
+.footer-design {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-design a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    transition: .5s;
+}
+
+.footer-design p {
+    color: rgb(248, 24, 24);
+    margin-top: 20px;
+}
+
+.footer-design a:hover {
+    color: rgb(226, 36, 2);
+    text-decoration: underline;
+    transition: .5s;
+}
